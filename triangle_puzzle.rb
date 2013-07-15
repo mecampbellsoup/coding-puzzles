@@ -9,5 +9,5 @@ def triangle_to_array(file)
 	end
 end
 
-puts triangle_to_array("/Users/matthewcampbell/Desktop/triangle.txt")
+pp File.exist?("triangle.txt")
 
