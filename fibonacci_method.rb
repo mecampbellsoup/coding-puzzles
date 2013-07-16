@@ -2,10 +2,6 @@ require 'pry'
 
 master_num = 5
 
-# def gen_fib_sequence_up_to_index num
-#   rec_gen_fib_values num, []
-# end
-
 def gen_fib_values num
   start_array = [1,1]
   count = 0
@@ -25,7 +21,6 @@ end
 p gen_fib_values(master_num)
 
 def fib_sequence_product sequence_array
-  #product = 1
   sequence_array.inject(1) do |product, elem|
     product = product * elem
   end
