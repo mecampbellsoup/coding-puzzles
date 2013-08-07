@@ -19,7 +19,13 @@ end
 # end
 
 squares = [4,5,6].my_collect do |i|
-  i*i
+  i+i
 end
 
 p squares
+
+rando = [4,5,6].inject do |i|
+  i*i
+end
+
+p rando
