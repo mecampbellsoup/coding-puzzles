@@ -1,7 +1,8 @@
 require 'pry'
 require 'awesome_print'
 
-triangle = File.open('triangle.txt').each_line.collect { |line| line.strip.split(" ").map{ |s| s.to_i } }  # now I have an array of arrays, each line being an array
+ap num_lines = File.open('triangle_small.txt').each_line.count
+triangle = File.open('triangle_small.txt').each_line.collect { |line| line.strip.split(" ").map{ |s| s.to_i } }  # now I have an array of arrays, each line being an array
 
 storage = []
 index = 0
