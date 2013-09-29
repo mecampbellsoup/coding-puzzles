@@ -1,3 +1,6 @@
+require 'awesome_print'
+require 'PP'
+
 # Conway's Game of Life rules:
 ## If cell is alive then it continues to stay alive if it has 2 or 3 alive neighbors
 ## If cell is alive then it dies if it has <2 or >3 neighbors
