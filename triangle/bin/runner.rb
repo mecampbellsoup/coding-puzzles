@@ -1,7 +1,7 @@
 require_relative '../lib/path'
 require_relative '../lib/triangle'
+require_relative '../lib/element'
 require 'pry'
 require 'awesome_print'
 
-normal = Triangle.new('data/triangle.txt')
-binding.pry
+small = Triangle.new('data/triangle_small.txt')
