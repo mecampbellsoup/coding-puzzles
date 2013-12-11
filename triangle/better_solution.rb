@@ -39,4 +39,6 @@ end
 small = Triangle.new('data/triangle_small.txt')
 normal = Triangle.new('data/triangle.txt')
 normal2 = Triangle.new('data/new_triangle.txt')
+euler18 = Triangle.new('data/euler_problem_18.txt')
+euler67 = Triangle.new('data/euler_problem_67.txt')
 binding.pry
